@@ -1,13 +1,10 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
+/* Shared Style */
 
 .open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
+
 .btn {
     background-color: #FD6E0A;
     border: none;
@@ -18,12 +15,22 @@
     font-weight: bold;
 }
 
+/* Main Style */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
 header {
     background-color: #FFF8F3;
 }
 
 #navigate {
-    border: 1px solid rgb(41, 41, 41);
+    /* border: 1px solid rgb(41, 41, 41); */
     display: flex;
     width: 70%;
     margin: 12px auto;
@@ -39,4 +46,56 @@ header {
     color: #474747;
     font-weight: 600;
     font-size: 20px;
+}
+
+#hero {
+    width: 83.25%;
+    margin: 50px 50px 87px 205px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    gap: 150px;
+    justify-content: space-between;
+}
+
+#hero-content p:first-child {
+    color: #474747;
+    font-weight: 600;
+    font-size: 30px;
+}
+#hero-content h2 {
+    font-size: 46px;
+    font-weight: bold;
+    margin: 5px 0px 20px 0px;
+}
+#hero-content .small-p {
+    color: #757575;
+    font-size: 14px;
+    margin: 0px 0px 30px 0px;
+}
+#hero-btn {
+    display: flex;
+    gap: 30px;
+}
+#hero-btn button:first-child {
+    padding: 12px 8px 12px 35px;
+    font-size: 16px;
+    background-image: url('../images/icons/import.png');
+    background-repeat: no-repeat;
+    background-position: 6px center;
+    background-size: 26px 26px;
+    font-weight: 600;
+}
+#hero-btn button:last-child {
+    padding: 12px 8px 12px 40px;
+    font-size: 16px;
+    background-image: url("../images/icons/call.png");
+    background-repeat: no-repeat;
+    background-position: 6px center;
+    background-size: 24px 24px;
+    font-weight: bold;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 8px;
+    background-color: #FFF8F3;
 }
