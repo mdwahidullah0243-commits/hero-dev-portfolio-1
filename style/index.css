@@ -4,7 +4,6 @@
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
 }
-
 .btn {
     background-color: #FD6E0A;
     border: none;
@@ -13,6 +12,18 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
+}
+.section-heading h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-p {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 /* Main Style */
@@ -109,4 +120,28 @@ header {
 }
 #hero-image {
     max-width: 500px;
+}
+
+#about {
+    /* border: 1px solid rgb(37, 37, 37); */
+    max-width: 81.25%;
+    margin: 100px auto;
+    padding: 70px;
+}
+
+#about-info {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.info-card {
+    font-size: 20px;
+    line-height: 30px;
+}
+.info-card p {
+    color: #757575;
+    text-align: center;
+}
+.info-card h3 {
+    font-weight: bold;
 }
