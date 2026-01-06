@@ -18,7 +18,7 @@
     max-width: 81.25%;
     margin: 100px auto;
 }
-.section-heading h2 {
+.section-heading {
     font-size: 35px;
     font-weight: bold;
     text-align: center;
@@ -158,9 +158,10 @@ header {
     margin-top: 50px;
 }
 .skill-card {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     padding: 30px;
     box-shadow: 2px 6px 12px #41414149;
+    border-radius: 12px;
 }
 .skill-description h3 {
     font-size: 20px;
@@ -172,4 +173,38 @@ header {
     line-height: 28px;
     color: #757575;
     margin-top: 20px;
+}
+
+#resume-container {
+    display: flex;
+    gap: 70px;
+    margin-top: 80px;
+}
+#education h3,
+#experience h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.resume-card {
+    margin-top: 30px;
+}
+.resume-card h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume-first-p {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.resume-second-p {
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+#resume-btn {
+    text-align: center;
+    margin-top: 50px;
 }
