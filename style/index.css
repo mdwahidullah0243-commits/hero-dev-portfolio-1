@@ -27,13 +27,18 @@
 
 header {
     background-color: #FFF8F3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('../images/developer.png'), url("../images/header_bg.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 30px top, right bottom;
 }
 
 #navigate {
     /* border: 1px solid rgb(41, 41, 41); */
     display: flex;
     width: 70%;
-    margin: 12px auto;
+    margin: 0px auto;
     align-items: center;
     cursor: pointer;
 }
@@ -50,27 +55,30 @@ header {
 
 #hero {
     width: 83.25%;
-    margin: 50px 50px 87px 205px;
+    margin: 50px 50px 87px 200px;
     display: flex;
     gap: 80px;
     align-items: center;
     gap: 150px;
     justify-content: space-between;
 }
-
+#hero-content {
+    max-width: 500px;
+}
 #hero-content p:first-child {
     color: #474747;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 45px;
 }
 #hero-content h2 {
-    font-size: 46px;
+    font-size: 70px;
     font-weight: bold;
     margin: 5px 0px 20px 0px;
 }
 #hero-content .small-p {
     color: #757575;
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 30px;
     margin: 0px 0px 30px 0px;
 }
 #hero-btn {
@@ -98,4 +106,7 @@ header {
     border: 1px solid #FD6E0A;
     border-radius: 8px;
     background-color: #FFF8F3;
+}
+#hero-image {
+    max-width: 500px;
 }
